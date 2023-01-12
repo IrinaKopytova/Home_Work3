@@ -11,7 +11,7 @@ string N = Convert.ToString(Console.ReadLine());
 
 if (N.Length == 5)
 {
-if (N[0]==N[4] || N[1]==N[3])
+if (N[0]==N[4] && N[1]==N[3])
   {
     Console.WriteLine("Ваше число - палиндром");
   }
